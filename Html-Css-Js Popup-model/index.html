@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS PopUp</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="btn">
+        <button data-model-target="#model" class="model-btn">Open Model</button>
+    </div>
+
+    <div class="model" id="model">
+        <div class="model-header">
+            <h3>Example Model</h2>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="model-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet saepe reiciendis mollitia est unde consequuntur quam labore, cum iste voluptatem, modi similique sapiente, blanditiis architecto quae delectus recusandae autem repudiandae?</p>
+        </div>
+    </div>
+    <div id="overlay"></div>
+</body>
+</html>
