@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    transition: all .4s;
 }
 
 .card{
@@ -46,6 +47,7 @@ body{
 
 .card:hover .icon{
     box-shadow: 0 0 10px red;
+    transition: all .4s;
 }
 
 .card p{
@@ -59,6 +61,7 @@ body{
 .card:hover p{
     display: block;
     opacity: 1;
+    transition: all .4s;
 }
 
 .card h4{
@@ -78,14 +81,17 @@ body{
 
 .card::before{
     top: 0;
+    transition: all .4s;
 }
 
 .card:hover::before{
     transform: translateY(-20px);
+    transition: all .4s;
 }
 
 .card::after{
     bottom: 10px;
     height: 60%;
     border-radius: 0 0 15px 15px;
+    transition: all .4s;
 }
