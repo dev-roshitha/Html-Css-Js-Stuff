@@ -86,7 +86,7 @@ body{
 
 .card:hover::before{
     transform: translateY(-20px);
-    transition: all .4s;
+    transition: all 0.5s;
 }
 
 .card::after{
